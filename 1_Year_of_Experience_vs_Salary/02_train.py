@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegrsssion
+from sklearn.linear_model import LinearRegrssion
 
 # 1. ĐỌC DỮ LIỆU
 DATA_PATH = "/kaggle/input/datasets/rohankayan/years-of-experience-and-salary-dataset/Salary_Data.csv"
