@@ -47,7 +47,7 @@ print(correlation)
 
 # 6. TRỰC QUAN HÓA DỮ LIỆU (VISUALIZATION)
 # --- Biểu đồ 1: Scatter Plot (Quan trọng nhất cho Linear Regression) ---
-output_dir = "/kaggle/working/image_eda"
+output_dir = "/kaggle/working"
 plt.figure(figsize=(8, 5))
 plt.scatter(
     df["YearsExperience"],
