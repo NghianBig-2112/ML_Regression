@@ -9,6 +9,6 @@ data = pd.read_csv(DATA_PATH)
 # 2. CHIA DỮ LIỆU THÀNH TRAIN - TEST DATASET
 TARGET = "Salary"
 X = data.drop(TARGET, axis=1)
-y = df[TARGET]
+y = data[TARGET]
 print(f"Kích thước của X (features): {X.shape}")
 print(f"Kích thước của y (target): {y.shape}")
