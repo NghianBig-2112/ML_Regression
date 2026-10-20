@@ -1,0 +1,82 @@
+# ==========================================
+# 1. PYTHON CACHE & BIÊN DỊCH
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# 2. MÔI TRƯỜNG ẢO (VIRTUAL ENVIRONMENTS)
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# 3. CẤU HÌNH TRÌNH SOẠN THẢO (IDE & EDITORS)
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# 4. HỆ ĐIỀU HÀNH (OS GENERATED FILES)
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# ==========================================
+# 5. JUPYTER NOTEBOOK CHECKPOINTS
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# 6. DỮ LIỆU & FILE DUNG LƯỢNG LỚN (DATASETS)
+# (Theo chuẩn thực tế: Không nên push dataset nặng lên GitHub)
+# ==========================================
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.zip
+*.tar.gz
+*.rar
+
+# ==========================================
+# 7. MODEL ARTIFACTS & FILE KẾT QUẢ HUẤN LUYỆN
+# (Tránh push các file nhị phân nặng sinh ra từ quá trình train)
+# ==========================================
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# ==========================================
+# 8. HÌNH ẢNH / BIỂU ĐỒ SINH RA TỪ CODE
+# (Bỏ comment dòng dưới nếu bạn không muốn lưu ảnh biểu đồ lên git)
+# ==========================================
+# *.png
+# *.jpg
+# *.jpeg
+
+# ==========================================
+# 9. LOGS & FILE TẠM
+# ==========================================
+*.log
