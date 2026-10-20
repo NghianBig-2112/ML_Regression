@@ -37,7 +37,7 @@ print(f"Bias b = {model.intercept_}")
 
 # 6. LƯU MÔ HÌNH RA FILE (.joblib)
 output_dir = "/kaggle/working"
-model_save_path = os.path.join(output_dir, "linear_regression_salary.")
+model_save_path = os.path.join(output_dir, "linear_regression_salary.joblib")
 # Dùng joblib để nén và lưu model
 joblib.dump(model, model_save_path)
 print(f"\n--> Đã đóng gói và lưu mô hình tại: {model_save_path}")
