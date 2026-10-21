@@ -48,7 +48,7 @@ plt.scatter(
     data["Salary"],
     color="blue",
     alpha=0.7,
-    edgcolors="black"
+    edgecolors="black"
 )
 plt.title(
     "Mối quan hệ giữa Số năm kinh nghiệm và Mức lương",
