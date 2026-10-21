@@ -37,7 +37,7 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 
 print(f"-- Hệ số góc w = {model.coef_[0]}")
-print(f"-- Bias b = {model.interccept_}")
+print(f"-- Bias b = {model.intercept_:.4f}")
 
 # 5. LƯU MÔ HÌNH
 OUTPUT_PATH = args.output_dir
