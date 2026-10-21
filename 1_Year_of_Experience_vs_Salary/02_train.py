@@ -86,7 +86,7 @@ plt.scatter(
     alpha=0.7,
     edgecolors="black"
 )
-plt.plot(X, y_pred, color="red", label="Đường hồi quy")
+plt.plot(X, model.predict(X), color="red", label="Đường hồi quy")
 plt.title("Mối quan hệ giữa Số năm kinh nghiệm và Mức lương", fontsize=24)
 
 plt.xlabel("Số năm kinh nghiệm (Years of Experience)", fontsize=12)
@@ -94,6 +94,6 @@ plt.ylabel("Mức lương (Salary)", fontsize=12)
 plt.legend()
 plt.grid(True, linestyle="--", alpha=0.5)
 
-eval_plot_path = os.path.join(output_dir, "line_linear_plot.png")
+eval_plot_path = os.path.join(OUTPUT_PATH, "line_linear_plot.png")
 plt.savefig(eval_plot_path, dpi=300, bbox_inches="tight")
 plt.close()
