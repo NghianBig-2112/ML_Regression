@@ -49,12 +49,12 @@ print(f"-- Model đã được save tại: {model_save}")
 y_pred = model.predict(X_test)
 
 print("Bảng so sánh Actual vs Predicted")
-comparison_df = data.DataFrame(
+comparison_df = pd.DataFrame(
     {
-        "Year of Experience": X_test["YearExperience"].values,
+        "Year of Experience": X_test["YearsExperience"].values,
         "Actual Salary": y_test.values,
         "Predicted Salary": y_pred.round(2),
-        "Chênh lệch": (y_test.values - y_pred).round(2)
+        "Chênh lệch": (y_test.values - y_pred).round(2),
     }
 )
 print(comparison_df.to_string(index=False))
